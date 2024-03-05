@@ -1,7 +1,7 @@
-header {
+header{
     position: fixed;
-    left: 0;
-    top: 0;
+    left: 0%;
+    top: 0%;
     height: 100%;
     width: 230px;
     background-color: rgb(53, 53, 52);
@@ -9,11 +9,11 @@ header {
     font-size: 20px;
 }
 
-h2 {
+h2{
     color: orange;
 }
 
-.accueil {
+.accueil{
     text-align: center;
     position: relative;
     top: 120px;
@@ -21,74 +21,123 @@ h2 {
     font-size: x-large;
 }
 
-#boutonAccueil,
-#boutonAbout,
-#boutonParcours,
-#boutonProjet,
-#boutonVeille {
+#boutonAccueil{
     position: relative;
-    border: none;
-    background-color: transparent;
+    border: none; 
+    background-color: transparent;    
     color: white;
     font-size: 35px;
     font-family: gigi;
     top: 30px;
+
 }
 
-#boutonAccueil:hover,
-#boutonAbout:hover,
-#boutonParcours:hover,
-#boutonProjet:hover,
-#boutonVeille:hover {
+#boutonAccueil:hover{
     color: orange;
 }
 
-.container {
+#boutonAbout{
+    position: relative;
+    border: none; 
+    background-color: transparent; 
+    color: white;
+    font-size: 35px;
+    font-family: gigi;
+    top: 50px;
+}
+
+#boutonAbout:hover{
+    color: orange;
+}
+
+#boutonParcours{
+    position: relative;
+    font-size: 35px;
+    font-family: gigi;
+    color: white;
+    border: none; 
+    background-color: transparent; 
+    top: 70px;
+}
+
+#boutonParcours:hover{
+    color: orange;
+}
+
+#boutonProjet{
+    color: white;
+    position: relative;
+    border: none;     
+    font-size: 35px;
+    font-family: gigi;
+    background-color: transparent; 
+    top: 90px;
+}
+
+#boutonProjet:hover{
+    color: orange;
+}
+
+#boutonVeille{
+    position: relative;
+    color: white;
+    border: none; 
+    font-size: 35px;
+    font-family: gigi;
+    background-color: transparent; 
+    top: 120px;
+}
+
+#boutonVeille:hover{
+    color: orange;
+}
+
+.container{
     position: relative;
     background-color: black;
-    left: 230px; /* Adjusted left value */
+    left:220px;
     top: 0%;
     color: white;
-    width: calc(100% - 230px); /* Adjusted width value */
+    width: 88.5%;
     font-size: 18px;
 }
 
-.container-Accueil {
+.container-Accueil{
     position: relative;
     background-color: black;
     height: 935px;
     top: -30px;
-    margin: 0;
+    margin: 0%;
     display: block;
 }
 
-.container-About {
+.container-About{
     position: relative;
     background-color: aliceblue;
-    color: black;
-    margin: 0;
+    color:black;
+    margin: 0%;
     display: block;
 }
 
-.pos-about {
+.pos-about{
     position: relative;
     left: 120px;
     width: 1500px;
 }
 
-.container-Parcours {
+.container-Parcours{
     position: relative;
     background-color: rgb(73, 90, 104);
     color: white;
 }
 
-.pos-parcours {
+.pos-parcours{
     position: relative;
     width: 1500px;
     left: 120px;
 }
 
-.col-ecole {
+.col-ecole{
     color: black;
     width: 350px;
     height: 200px;
@@ -100,100 +149,100 @@ h2 {
     text-align: center;
 }
 
-.col-ecole:hover {
+.col-ecole:hover{
     background-color: orange;
     color: aliceblue;
 }
 
-.container-Projet {
+.container-Projet{  
     position: relative;
     background-color: white;
     color: black;
 }
 
-.pos-projet {
+.pos-projet{
     position: relative;
     left: 120px;
     width: 1500px;
 }
 
-.container-Veille {
+.container-Veille{
     position: relative;
-    background-color: rgb(73, 90, 104); /* Changed to a single color value */
+    background-color: aliceblue;
+    background-color: rgb(73, 90, 104);
 }
 
-.pos-veille {
+.pos-veille{
     position: relative;
     left: 120px;
     width: 1500px;
     height: 1300px;
 }
 
-.container-competence {
+.container-competence{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; 
+    justify-content: space-around; 
     height: 200px;
     width: 1400px;
     left: 80px;
     position: inherit;
 }
 
-.col-competence {
+.col-competence{
     color: black;
     border: 2px solid black;
     text-align: center;
     width: 90px;
     height: 100px;
     transition: background-color 0.4s, color 0.4s;
-    display: flex;
-    align-items: center;
+    display: flex; 
+    align-items: center; 
     border-radius: 15%;
     justify-content: center;
     background-color: white;
 }
 
-.col-competence:hover {
+.col-competence:hover{  
     background-color: orange;
     color: aliceblue;
 }
 
-.container-exveille {
+.container-exveille{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; 
+    justify-content: space-around; 
     height: 200px;
     width: 1400px;
     left: 80px;
     position: inherit;
 }
 
-a {
+a{
     text-decoration: none;
-    color: orange;
+    color:orange;
     font-style: italic;
     font-size: 25px;
 }
 
-a:hover {
+a:hover{
     color: orangered;
 }
-
-.container-veille2 {
+.container-veille2{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: center; 
+    justify-content: space-around; 
     height: 200px;
     width: 1400px;
     left: 80px;
     position: inherit;
 }
 
-.box-veille {
+.box-veille{
     color: black;
     text-align: center;
     width: 350px;
     height: 250px;
-    align-items: center;
+    align-items: center; 
     font-size: 20px;
 }
