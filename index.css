@@ -286,7 +286,11 @@ img{
 }
 
 .pos-PDF {
-    text-align: center;
+    position: relative;
+    left: 120px;
+    width: 1500px;
+    height: 1300px;
+    
 }
 
 .container-PDF h2 {
