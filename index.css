@@ -291,27 +291,9 @@ img{
     
 }
 
-.container-PDF h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #333;
-}
-
 .container-PDF p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
-.container-PDF a {
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    background-color: #0066cc;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
 
-.container-PDF a:hover {
-    background-color: #004999;
-}
